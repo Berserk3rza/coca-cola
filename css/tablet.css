@@ -1,0 +1,44 @@
+#ppcNavContainer {
+  display: block;
+  position: sticky;
+  z-index: 100;
+  height: 140px;
+}
+
+.ppc-get-in-touch-input-wrapper {
+  min-width: 135px;
+}
+
+.ppc-navbar-mobile {
+  display: block;
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  bottom: 0;
+}
+
+.ppc-get-in-touch-form {
+  display: block;
+}
+
+.ppc-input {
+  border-right: 0;
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.ppc-get-in-touch-input-wrapper:last-child  > .ppc-input {
+  border-bottom: 0;
+}
+
+.uk-input, .uk-select, .uk-textarea {
+  padding: 0;
+}
+
+.uk-slider-items.uk-grid {
+  flex-wrap: nowrap;
+}
+/* .uk-hidden-tablet {
+  display: none;
+  visibility: hidden;
+} */

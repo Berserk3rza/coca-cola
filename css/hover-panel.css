@@ -1,0 +1,198 @@
+
+  
+
+
+
+  
+
+  
+  .banner {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .banner ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .banner li:hover {
+    width: 60% !important;
+  }
+  
+  .banner:hover > ul > li {
+      width: 20%;
+  }
+  
+  .banner-one {
+    background: url('https://placeimg.com/640/480/people') no-repeat;
+  }
+  
+  .banner-two {
+    background: url('https://placeimg.com/640/480/arch') no-repeat;
+  }
+  
+  .banner-one, 
+  .banner-two {
+    width: 50%;
+    height: 460px;
+    -webkit-transition-property: width;
+    -webkit-transition-duration: 1s;
+    transition-property: width;
+    transition-duration: 1s;
+    float: left;
+    background-position: left;
+    position: relative;
+  }
+  
+  .feature-item-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: background 250ms;
+    -webkit-transition: background 250ms;
+  }
+  
+  .banner li:hover .feature-item-overlay {
+    background-color: rgba(118,196,206,0.8);
+  }
+  
+  .feature-content {
+    position: absolute;
+    bottom: 1.75em;
+    left: 1.75em;
+    width: 18em;
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 300ms;
+    -webkit-transition: opacity 300ms;
+  }
+  
+  .feature-content {
+    min-width: 360px;
+    width: 70%;
+    bottom: 9.75em;
+    margin: 0 15%;
+    left: 0;
+  }
+  
+  .banner li:hover .feature-content {
+    opacity: 1;
+  }
+  
+  .feature-text {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  .feature-heading {
+    font-size: 1.875em;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  p.palm-is-hidden {
+    font-size: 0.938em;
+    line-height: 1.5em;
+    font-style: italic;
+    color: #fff;
+    margin-bottom: 1.618em;
+    margin: 0 auto;
+    width: 360px;
+  }
+  
+  a.button.button-outline {
+    width: 48%;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 13px;
+    line-height: 1em;
+    padding: 0.933em 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+  
+  a.button.button-alt {
+    width: 48%;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #0a2e62;
+    background-color: #0a2e62;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 13px;
+    line-height: 1em;
+    padding: 0.933em 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 2%;
+    display: inline-block;
+    float: right;
+  }
+  
+  @media screen and (max-width: 1100px) {
+    .feature-content {
+      margin: 0 7%;
+    }
+    
+    a.button.button-alt {
+      float: none;
+      margin: 10px auto;
+      display: block;
+      width: 10px;
+    }
+    
+    a.button.button-alt, 
+    a.button.button-outline {
+      clear: both;
+      display: block;
+      float: none;
+      margin: 5px auto;
+      width: 180px;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .banner-one, 
+    .banner-two {
+      background-position: 37% 100%;
+    }
+    .feature-content {
+      min-width: 290px;
+    }
+    .feature-heading {
+      font-size: 22px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .banner-one, 
+    .banner-two, 
+    .banner-three, 
+    .banner-four {
+      width: 50%;
+      background-size: cover;
+    }
+    .banner-one, .banner-two, .banner-three, .banner-four {
+      width: 50%;
+      background-size: cover;
+    }
+    .banner li:hover {
+      width: 50% !important;
+    }
+  }

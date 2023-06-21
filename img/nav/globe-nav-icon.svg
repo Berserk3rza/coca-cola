@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36.43" height="36.43" viewBox="0 0 36.43 36.43">
+  <g id="globe-nav-icon" transform="translate(0.9 0.9)">
+    <circle id="Ellipse_16" data-name="Ellipse 16" cx="17.315" cy="17.315" r="17.315" fill="none" stroke="#50b848" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.8"/>
+    <ellipse id="Ellipse_17" data-name="Ellipse 17" cx="9.189" cy="17.315" rx="9.189" ry="17.315" transform="translate(8.126 0)" fill="none" stroke="#50b848" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.8"/>
+    <path id="Path_2321" data-name="Path 2321" d="M884.088,232.062c-2.946,2.25-7.66,3.707-12.973,3.707-5.547,0-10.441-1.589-13.352-4.009" transform="translate(-853.482 -225.844)" fill="none" stroke="#50b848" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.8"/>
+    <path id="Path_2322" data-name="Path 2322" d="M884.088,417.253c-2.946-2.25-7.66-3.707-12.973-3.707-5.547,0-10.441,1.589-13.352,4.009" transform="translate(-853.482 -388.842)" fill="none" stroke="#50b848" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.8"/>
+    <line id="Line_26" data-name="Line 26" y2="34.63" transform="translate(17.315 0)" fill="none" stroke="#50b848" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.8"/>
+    <line id="Line_27" data-name="Line 27" x2="34.63" transform="translate(0 17.315)" fill="none" stroke="#50b848" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.8"/>
+  </g>
+</svg>

@@ -1,0 +1,314 @@
+.uk-h1 {
+  font-size: 30px;
+  line-height: 32px
+}
+
+.ppc-header-light-text {
+  font-size: 18px;
+  margin: 10px 0;
+  display: inline-block;
+}
+
+.header-spacer {
+  display: block;
+  height: 4px;
+}
+
+.ppc-heading > .uk-h1 {
+  font-size: 37px;
+}
+
+.ppc-heading > .uk-h1 > p {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+#regionURL {
+  margin: auto;
+}
+
+.ppc-header-content {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.ppc-get-your-price-cta:hover,
+.cta-chevron:hover,
+.uk-button-primary:hover,
+.uk-button-primary:focus {
+  background-color: #209624;
+  letter-spacing: 0;
+}
+
+#ppcNavContainer {
+  display: block;
+  position: sticky;
+  z-index: 100;
+  height: 140px;
+}
+
+.ppc-hero-wrapper {
+  min-height: 360px;
+  padding-top: 70px;
+  height: 73vh;
+  display: flex;
+}
+
+.ppc-get-in-touch-input-wrapper {
+  min-width: auto;
+  max-width: auto;
+  width: 100%;
+}
+
+.ppc-nav-item-seperator {
+  margin: 0px 6px;
+}
+
+.ppc-nav-icon-wrapper {
+  margin: auto;
+  text-align: center;
+}
+
+.ppc-nav-item {
+  flex: 1;
+}
+
+.ppc-pilar-switcher > .uk-active {
+  background-color: #fdb332;
+}
+
+.ppc-pilar-switcher > .uk-active::after {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #222222;
+}
+
+/* .ppc-region-select-flag {
+  display: none;
+} */
+
+.ppc-nav-item,
+.ppc-region-select {
+  color: #333333;
+}
+
+.ppc-pilar-switcher {
+  background-color: #ffffff;
+}
+
+.ppc-nav-item-region-select {
+  min-width: 160px;
+}
+
+.ppc-navbar-mobile {
+  padding: 6px 0;
+  border-top: 1px solid #cdcdcd;
+}
+
+.ppc-hero-footer-cutout {
+  bottom: -7px;
+  border-bottom: 0;
+}
+
+.ppc-pilar-inner {
+    padding: 6px;
+}
+
+.ppc-pilar-icon {
+  height: 35px;
+}
+
+.ppc-pilar-title {
+  font-size: 12px;
+}
+
+.ppc-setup-wrapper::after {
+  content: "";
+  position: absolute;
+  right: -1000px;
+  display: none;
+  z-index: -100;
+}
+
+.ppc-case-study-counter-wrapper {
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: auto;
+}
+
+.ppc-horizontal-seperator {
+  width: 100%;
+}
+
+.ppc-case-study-counter {
+  text-align: center;
+  margin: 30px auto 0 auto;
+}
+
+.ppc-fixed-background {
+  background-attachment: scroll;
+}
+
+.ppc-how-it-works-device-image {
+  margin-top: 0;
+}
+
+.ppc-case-study-details {
+  padding-top: 0;
+}
+
+.ppc-leaders-wrapper {
+  text-align: left;
+  margin: auto;
+  flex-direction: row;
+}
+
+.ppc-setup-content {
+  flex: 1;
+}
+
+.ppc-leaders-podium {
+  margin: 0;
+}
+
+.ppc-setup-icon {
+  min-width: 80px;
+  max-width: 80px;
+}
+
+.ppc-footer-section {
+  padding-bottom: 100px;
+}
+
+.ppc-horizontal-seperator-blue,
+.ppc-horizontal-seperator-green {
+  width:100%;
+}
+
+.uk-alert {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.uk-alert > span {
+  margin-right: 0!important;
+  margin-bottom: 16px;
+}
+
+.mymix-interface-hand-wrapper {
+  width: 100%;
+  margin-left: auto;
+}
+
+.mymix-interface-hand-img {
+  width: 100%;
+  height: auto;
+}
+
+.ppc-plus-image {
+  display: block;
+  bottom: 0;
+  transform: translate(-50%, 130%);
+  left: 50%;
+  top: 50%;
+}
+
+.ppc-plus-equals {
+  display: block;
+  bottom: 0;
+  transform: translate(-50%, 130%);
+  left: 50%;
+  top: 50%;
+}
+
+.ppc-nav-light {
+  background-color: transparent;
+  border-bottom: 0;
+}
+
+.mv-roi-slider-items {
+  flex-wrap: nowrap!important;
+}
+
+.mv-roi-slideshow-items {
+  height: 282px;
+  min-height: 282px!important;
+}
+
+.uk-hidden-tablet {
+  display: block;
+  visibility: visible;
+}
+
+.mv-driver-image {
+  margin-right: 0;
+}
+
+.cta-chevron,
+.cta-camera,
+.cta-chevron-top {
+  margin-left: 4px;
+}
+
+.cta-form {
+  margin-right: 0;
+}
+
+.mv-hero-device-mobile {
+  margin-bottom: 15px;
+  max-width: 190px;
+}
+
+.mv-button-primary,
+.mv-button-secondary,
+.ppc-get-your-price-cta {
+  font-weight: 500;
+  font-size: 12px;
+  padding: 0 15px;
+}
+
+.ppc-input {border-bottom: 1px solid #cdcdcd!important}
+
+#submit {margin-top: 15px}
+
+.mt-switcher-h3 {font-size: 28px}
+
+.mt-prod-li-a-left:before {
+  left: 16px;
+  border-right: 0;
+  border-bottom: 0;
+  z-index: -1;
+}
+
+.mt-prod-li-a-right:after {
+  right: 16px;
+  border-left: 0;
+  border-bottom: 0;
+  z-index: -1;
+}
+
+.mt-product-list-link, .mt-product-list-link:hover {
+  font-size: 12px;
+  line-height: 14px;
+  padding: 5px 5px
+}
+
+.uk-padding {padding: 10px}
+
+.uk-subnav {
+  display: flex;
+  margin-left: -20px;
+  padding: 0;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.mt-switcher-title {font-size: 24px}
+.mt-scroll-heading-wrapper {font-size: 20px}

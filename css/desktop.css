@@ -1,0 +1,9 @@
+.mv-roi-slideshow-items {
+  height: 800px;
+  min-height: 800px!important;
+}
+
+.uk-hidden-tablet {
+  display: none;
+  visibility: hidden;
+}
